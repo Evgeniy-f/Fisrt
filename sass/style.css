@@ -1,0 +1,9 @@
+body {
+  background: #000; }
+  body a {
+    color: #000;
+    height: 20px;
+    display: inline-block;
+    background: #000; }
+    body a :hover {
+      color: #fff; }

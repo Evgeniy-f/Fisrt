@@ -1,0 +1,25 @@
+%my
+  display: inline-block
+  height: auto
+  width: 100px
+
+body
+  background: #fff
+  color: #fff
+  text-align: center
+  a
+    background: gray
+    @extend %my
+    &:hover
+      background: white
+      color: black
+  ul
+    list-style: none
+    display: inline-block
+    @extend %my
+    text-decoration: underline
+    font-size: 18px
+
+html
+  height: 100%
+  visibility: visible

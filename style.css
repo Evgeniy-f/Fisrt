@@ -1,0 +1,32 @@
+body a, body ul {
+  display: inline-block;
+  height: auto;
+  width: 100px;
+}
+
+body {
+  background: #fff;
+  color: #fff;
+  text-align: center;
+}
+
+body a {
+  background: gray;
+}
+
+body a:hover {
+  background: white;
+  color: black;
+}
+
+body ul {
+  list-style: none;
+  display: inline-block;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+html {
+  height: 100%;
+  visibility: visible;
+}
